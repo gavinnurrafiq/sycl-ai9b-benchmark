@@ -1,7 +1,7 @@
 # SYCL AI 9B Benchmark
 
 `sycl-ai-benchmark` is a lightweight C++ benchmarking utility built with SYCL 2020. It evaluates whether a target GPU hardware has sufficient VRAM capacity and compute throughput to handle Large Language Models (LLMs) with 9 billion (9B) parameters—such as Llama 3 8B/9B, Gemma 9B, or Mistral 7B/9B class models.
-
+![Benchmark Execution Output](asset/sample.png)
 ## 📖 Overview
 
 Running 9B parameter LLMs requires substantial VRAM capacity and high-precision floating-point performance. This benchmark performs two key evaluations:
